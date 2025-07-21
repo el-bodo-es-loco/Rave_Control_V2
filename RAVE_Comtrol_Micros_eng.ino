@@ -84,7 +84,7 @@ void setup()
   delay(700);
   pvservo.write(zu);
   delay(700);
-  attachInterrupt(digitalPinToInterrupt(3), Pulse_Event, RISING);  
+  attachInterrupt(digitalPinToInterrupt(3), Pulse_Event, FALLING);  
   pinMode (3, INPUT_PULLUP);
 
   delay(1000);  
