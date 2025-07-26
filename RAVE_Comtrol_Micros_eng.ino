@@ -37,7 +37,7 @@ Servo pvservo;
 
 //SERVO Einstellung//
 int auf = 95; //#### Servo endpoint open valve in degree, (RS 125: round about 90)
-int zu = 145;//#### Servo endpoint closed valve in degree, (RS 125: round about 140)
+int zu = 135;//#### Servo endpoint closed valve in degree, (RS 125: round about 140)
 
 //Einstellung Drehzahlabnahme//
 const byte PulsesPerRevolution = 1;  // #### 1 for reading on Pickup or Ignition coil; 6 is for reading on the Alternator (ROTAX)
